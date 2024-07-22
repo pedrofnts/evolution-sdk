@@ -14,15 +14,12 @@ Este projeto é um SDK TypeScript para a API Evolution, oferecendo uma interface
 Para instalar o SDK, use o seguinte comando npm:
 
 ```bash
-npm install evolution-sdk-ts
+npm install evolution-sdk
 ```
-
-## Uso
-
 Aqui está um exemplo básico de como usar o SDK:
 
 ```typescript
-import { createSdk } from 'evolution-sdk-ts';
+import { createSdk } from 'evolution-sdk';
 
 async function main() {
   const sdk = createSdk('https://sua-api-url.com', 'sua-chave-api');
@@ -67,11 +64,3 @@ Para configurar o projeto para desenvolvimento:
 2. Instale as dependências: `npm install`
 3. Compile o projeto: `npm run build`
 4. Execute os testes: `npm test`
-
-## Contribuindo
-
-Contribuições são bem-vindas! Por favor, sinta-se à vontade para submeter um Pull Request.
-
-## Licença
-
-Este projeto está licenciado sob a licença ISC.
